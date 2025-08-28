@@ -102,7 +102,8 @@ const App: React.FC = () => {
 
 						<div className={css.upload}>
 							<div className={css.uploaderWrapper}>
-								<UploadcareUpload publicKey='cd894e3d2d03841bb5ef' onChange={uploadOnChange} />
+								<UploadcareUpload publicKey='cd894e3d2d03841bb5ef' onChange={uploadOnChange} validators={[
+    { type: 'image-dimensions', params: { maxWidth: 5000, maxHeight: 5000 } }]}/>
 							</div>
 						</div>
 						{src !== null && <Tabs onChange={setActiveTab} value={activeTab} />}
