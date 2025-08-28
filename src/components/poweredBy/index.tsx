@@ -7,11 +7,11 @@ const PoweredBy: React.FC = () => {
 	return (
 		<div className={css.root}>
 			<div className={css.ucInfo}>
-				<p className={css.p}>Powered&nbsp;by</p>
+				<p className={css.p}>Horrela indartua</p>
 				<br />
-				<p className={css.p}>Sponsored&nbsp;by</p>
+				<p className={css.p}>Honek lagundua</p>
 			</div>
-			<p className={[css.p, css.mvInfo].join(' ')}>Made&nbsp;by</p>
+			<p className={[css.p, css.mvInfo].join(' ')}>Honekin eginda</p>
 			<a href='https://uploadcare.com' target='_blank' rel='noreferrer' className={css.ucLogo} title='Uploadcare' aria-label='Uploadcare'>
 				<img src={UC} width={59} height={59} alt='' />
 			</a>
