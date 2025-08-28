@@ -6,8 +6,8 @@
 		"sizes": [
 			{
 				"name": "Profile picture",
-				"width": 180,
-				"height": 180,
+				"width": 900,
+				"height": 1800,
 				"simple": true,
 				"positionSrc": "positions/facebook-profile-picture.svg",
 				"description": "Pro Tip: People see this picture everywhere they stumble upon your page. Make sure it's a good one."
