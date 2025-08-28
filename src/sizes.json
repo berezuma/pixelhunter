@@ -8,18 +8,15 @@
 				"name": "Horizontala",
 				"width": 1600,
 				"height": 900,
-				"simple": true,
-				
+				"simple": true
 			},
 			{
 				"name": "Bertikala",
 				"width": 1130,
 				"height": 1600,
-				"simple": true,
-		
+				"simple": true
 			}
 		]
-		
 	},
 	{
 		"app": "Sliderrak",
@@ -30,22 +27,19 @@
 				"name": "Slider web",
 				"width": 1920,
 				"height": 690,
-				"simple": true,
-		
+				"simple": true
 			},
 			{
 				"name": "Slider Smart TV",
 				"width": 3840,
 				"height": 1380,
-				"simple": true,
-				
+				"simple": true
 			},
 			{
 				"name": "Slider movil",
 				"width": 1242,
 				"height": 1375,
-				"simple": true,
-				
+				"simple": true
 			}
 		]
 	}
