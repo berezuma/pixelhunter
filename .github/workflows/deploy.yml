@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - master # Zure adar nagusia 'main' bada, aldatu 'main'-era
+      - master
 
 jobs:
   build-and-deploy:
@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # Proiektuak behar duen Node.js bertsioa
+          node-version: '16'
 
       - name: Install dependencies
         run: npm install
@@ -23,10 +23,10 @@ jobs:
       - name: Build the project
         run: npm run build
         env:
-    NODE_OPTIONS: "--openssl-legacy-provider"
+          NODE_OPTIONS: "--openssl-legacy-provider"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build # Eraikitako fitxategiak dauden karpeta
+          publish_dir: ./build
