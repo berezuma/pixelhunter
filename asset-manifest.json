@@ -3,8 +3,8 @@
     "static/js/0.02a43a25.chunk.js": "/pixelhunter/static/js/0.02a43a25.chunk.js",
     "static/js/0.02a43a25.chunk.js.map": "/pixelhunter/static/js/0.02a43a25.chunk.js.map",
     "main.css": "/pixelhunter/static/css/main.c71c97af.chunk.css",
-    "main.js": "/pixelhunter/static/js/main.d0d4c908.chunk.js",
-    "main.js.map": "/pixelhunter/static/js/main.d0d4c908.chunk.js.map",
+    "main.js": "/pixelhunter/static/js/main.f8571282.chunk.js",
+    "main.js.map": "/pixelhunter/static/js/main.f8571282.chunk.js.map",
     "runtime-main.js": "/pixelhunter/static/js/runtime-main.f480cab2.js",
     "runtime-main.js.map": "/pixelhunter/static/js/runtime-main.f480cab2.js.map",
     "ucare-panel-chunk.js": "/pixelhunter/static/js/ucare-panel-chunk.09494228.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.f480cab2.js",
     "static/js/5.b1bf3a9a.chunk.js",
     "static/css/main.c71c97af.chunk.css",
-    "static/js/main.d0d4c908.chunk.js"
+    "static/js/main.f8571282.chunk.js"
   ]
 }
