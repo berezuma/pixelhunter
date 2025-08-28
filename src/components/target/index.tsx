@@ -31,14 +31,6 @@ const Target: React.FC<Props> = props => {
 	return (
 		<article className={css.root} aria-labelledby={targetId}>
 			<header>
-				<img
-					className={css.image}
-					src={props.logoSrc}
-					width={40}
-					height={40}
-					alt=''
-					aria-hidden={true}
-				/>
 				<h2 className={css.heading} id={targetId}>
 					Irudiak: {props.app}
 				</h2>
