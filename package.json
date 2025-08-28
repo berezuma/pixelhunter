@@ -1,6 +1,7 @@
 {
   "name": "pixelhunter",
   "version": "1.0.0",
+  "homepage": "https://berezuma.github.io/pixelhunter",
   "private": true,
   "dependencies": {
     "@rpearce/ts-dom-fns": "^0.4.0",
