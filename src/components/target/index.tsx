@@ -40,7 +40,7 @@ const Target: React.FC<Props> = props => {
 					aria-hidden={true}
 				/>
 				<h2 className={css.heading} id={targetId}>
-					Pictures for {props.app}
+					Irudiak: {props.app}
 				</h2>
 			</header>
 
