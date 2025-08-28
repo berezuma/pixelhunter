@@ -17,13 +17,6 @@ import PoweredBy from './components/poweredBy'
 
 const timeouts = { appear: 2000, enter: 500, exit: 500 }
 const simpleModeImages = getSimpleModeSizes(sizes)
-const advancedModeLogos = sizes.map(target => ({
-	logoSrc: target.logoSrc,
-	app: target.app,
-}))
-
-const sizesCount = sizes.map(target => target.sizes.length).reduce((a, b) => a + b, 0)
-const sizePlural = sizesCount.toString() === '1' ? 'size' : 'sizes'
 const browserInfo = detect()
 const isSafari = !browserInfo || browserInfo.name === 'safari' || browserInfo.name === 'ios'
 
