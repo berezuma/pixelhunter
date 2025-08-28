@@ -105,9 +105,7 @@ const App: React.FC = () => {
 							<UploadcareUpload
   							publicKey='cd894e3d2d03841bb5ef'
   							onChange={uploadOnChange}
-  							validators={[
-    						imageDimensions({ maxWidth: 5000, maxHeight: 5000 })
-  							]}
+  						
 							/>
 		
 							</div>
