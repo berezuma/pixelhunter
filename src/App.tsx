@@ -89,24 +89,24 @@ const App: React.FC = () => {
 					<div className={css.content}>
 						{!isSafari ? (
 							<h1 className={css.h1}>
-								Pixel&shy;hunter&nbsp;— free AI image resizer for <span className={css.rose}>social media.</span>
+								Pixel&shy;hunter&nbsp;— Egokitu zure irudiak <span className={css.rose}>AAren laguntzarekin.</span>
 							</h1>
 						) : (
-							<h1 className={css.h1}>Pixel&shy;hunter&nbsp;— free AI image resizer for social media.</h1>
+							<h1 className={css.h1}>Pixel&shy;hunter&nbsp;— Egokitu zure irudiak AAren laguntzarekin.</h1>
 						)}
 
 						<p className={css.p}>
-							Cropping each and every image by hand can be tiresome. Pixelhunter utilizes amazing <strong>Uploadcare Intelligence API</strong> to <strong>recognize objects and crop pictures automatically</strong>, in a smarter way.
+							Irudi bakoitza moldatzea nekagarria izan daiteke. Pixelhunter-ek izugarrizko <strong>Adimen Artifiziala</strong> erabiltzen du <strong>objetuak uleru eta irudiak automatikoki ebakitzeko</strong>, era adimentsuan.
 						</p>
 						<p className={css.p}>
-							Just upload your image of any size and it will be automatically resized to each and every of{' '}
+							Zure fitxategia igo eta automatikoki egokituko da neurri bakoitzera{' '}
 							<strong>
 								{sizesCount} {sizePlural}
 							</strong>{' '}
-							we support. AI is there to ensure that your image is resized in the best way that a robot can do.
+							AA laguntzeko prest dago, robot batek egin dezakeen onena eskaintzeko ;)
 						</p>
 						<p className={css.p}>
-							Other than that, Pixelhunter features <strong>real pro-tips</strong> that are there to actually help you and not just to fill up the visual space.
+							Bestetik, Pixelhunter-ek <strong>trikimailuak</strong> eskainiko dizkizu zure web orria hobetzeko.
 						</p>
 
 						<PoweredBy />
