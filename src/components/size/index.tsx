@@ -144,7 +144,7 @@ const Size: React.FC<Props> = props => {
 									className={css.errorContainerContentIcon}
 									aria-hidden={true}
 								/>
-								We're having trouble displaying that image. You can download it directly.
+								Arazoak ditugu irudiak erakustearekin. Deskargatu ezazu zuzenean.
 								<span className={css.errorContainerButtonWrapper}>
 									<a
 										className={css.errorContainerButton}
@@ -152,8 +152,8 @@ const Size: React.FC<Props> = props => {
 										target='_blank'
 										rel='noreferrer'
 										download={`${alt}.${props.ucMeta.extension}`}
-										aria-label={`Download ${alt}.${props.ucMeta.extension}`}
-										title={`Download ${alt}.${props.ucMeta.extension}`}
+										aria-label={`Deskargatu ${alt}.${props.ucMeta.extension}`}
+										title={`Deskargatu ${alt}.${props.ucMeta.extension}`}
 									>
 										<FiArrowDown aria-hidden={true} />
 									</a>
@@ -192,7 +192,7 @@ const Size: React.FC<Props> = props => {
 								rel='noreferrer'
 								download={`${alt}.${props.ucMeta.extension}`}
 								aria-label={`Download ${alt}.${props.ucMeta.extension}`}
-								title={`Download ${alt}.${props.ucMeta.extension}`}
+								title={`Deskargatu ${alt}.${props.ucMeta.extension}`}
 							>
 								<FiArrowDown aria-hidden={true} />
 							</a>
