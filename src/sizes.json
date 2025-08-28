@@ -16,8 +16,7 @@
 				"width": 1130,
 				"height": 1600,
 				"simple": true,
-				"positionSrc": "positions/facebook-cover-photo.svg",
-				"description": "Pro Tip: Treat this like a billboard. Changing this picture regularly is usually a good decision. Experiment with images to see what your audience responds to best."
+		
 			}
 		]
 		
@@ -32,24 +31,21 @@
 				"width": 1920,
 				"height": 690,
 				"simple": true,
-				"positionSrc": "positions/instagram-profile-picture.svg",
-				"description": "Pro Tip: Keep your profile picture evergreen updating it as you travel or as the season changes. Try to match the palette and the overall visual aesthetic of your whole profile."
+		
 			},
 			{
 				"name": "Slider Smart TV",
 				"width": 3840,
 				"height": 1380,
 				"simple": true,
-				"positionSrc": "positions/instagram-square-post.svg",
-				"description": "Pro Tip: this is the new Instagram post format. You should probably use it instead of the old one from the now on."
+				
 			},
 			{
 				"name": "Slider movil",
 				"width": 1242,
 				"height": 1375,
 				"simple": true,
-				"positionSrc": "positions/instagram-square-post.svg",
-				"description": "Pro Tip: It takes the full width, so you can use text and details. They will be seen. Consider not only that but the palette of the whole image as well because it will be shown both large and small."
+				
 			}
 		]
 	}
