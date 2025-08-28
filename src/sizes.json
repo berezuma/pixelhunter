@@ -1,77 +1,24 @@
 [
 	{
-		"app": "Facebook",
+		"app": "Horizontal eta bertikala",
 		"description": "Because the size of this social network, Facebook images are mostly utilitarian. Don't expect people to passionately explore them and pin them to their moodboards. However, Facebook supports a wide variety of sizes, so you can utilize them to build a solid brand image.",
 		"logoSrc": "logos/facebook.svg",
 		"sizes": [
 			{
-				"name": "Profile picture",
-				"width": 900,
-				"height": 1800,
+				"name": "Horizontala",
+				"width": 1600,
+				"height": 900,
 				"simple": true,
 				"positionSrc": "positions/facebook-profile-picture.svg",
 				"description": "Pro Tip: People see this picture everywhere they stumble upon your page. Make sure it's a good one."
 			},
 			{
-				"name": "Cover photo",
-				"width": 820,
-				"height": 312,
+				"name": "Bertikala",
+				"width": 1130,
+				"height": 1600,
 				"simple": true,
 				"positionSrc": "positions/facebook-cover-photo.svg",
 				"description": "Pro Tip: Treat this like a billboard. Changing this picture regularly is usually a good decision. Experiment with images to see what your audience responds to best."
-			},
-			{
-				"name": "Image post",
-				"width": 1200,
-				"height": 630,
-				"simple": true,
-				"positionSrc": "positions/facebook-image-post.svg",
-				"description": "Pro Tip: Because posts with singular images take full width, you may use text as well as highly-detailed images. They will be easily recognizable and noticeable."
-			},
-			{
-				"name": "Marketplace",
-				"width": 1200,
-				"height": 1200
-			},
-			{
-				"name": "Stories",
-				"width": 1080,
-				"height": 1920
-			},
-			{
-				"name": "Link image",
-				"width": 1200,
-				"height": 630
-			},
-			{
-				"name": "Event image",
-				"width": 1920,
-				"height": 1005
-			},
-			{
-				"name": "Instant articles",
-				"width": 1200,
-				"height": 1200
-			},
-			{
-				"name": "Right column",
-				"width": 1200,
-				"height": 1200
-			},
-			{
-				"name": "Group cover",
-				"width": 1640,
-				"height": 856
-			},
-			{
-				"name": "Highlighted image",
-				"width": 1200,
-				"height": 717
-			},
-			{
-				"name": "Feed",
-				"width": 1080,
-				"height": 1350
 			}
 		]
 	},
