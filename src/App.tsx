@@ -96,7 +96,7 @@ const App: React.FC = () => {
 						)}
 
 						<p className={css.p}>
-							Irudi bakoitza moldatzea nekagarria izan daiteke. Pixelhunter-ek izugarrizko <strong>Adimen Artifiziala</strong> erabiltzen du <strong>objetuak ulertu eta irudiak automatikoki ebakitzeko</strong>, era adimentsuan.
+							Irudi bakoitza moldatzea nekagarria izan daiteke. Pixelhunter-ek izugarrizko <strong>Adimen Artifiziala</strong> erabiltzen du <strong>objetuak ulertu eta irudiak automatikoki ebakitzeko</strong>, era adimentsuan gainera.
 						</p>
 						<p className={css.p}>
 							Zure fitxategia igo eta automatikoki egokituko da neurri bakoitzera.{' '}
