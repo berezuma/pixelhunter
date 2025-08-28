@@ -102,7 +102,7 @@ const App: React.FC = () => {
 
 						<div className={css.upload}>
 							<div className={css.uploaderWrapper}>
-								<UploadcareUpload publicKey='3828f4d78b7de9c98461' onChange={uploadOnChange} />
+								<UploadcareUpload publicKey='cd894e3d2d03841bb5ef' onChange={uploadOnChange} />
 							</div>
 						</div>
 						{src !== null && <Tabs onChange={setActiveTab} value={activeTab} />}
