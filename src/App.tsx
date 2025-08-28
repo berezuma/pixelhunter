@@ -35,7 +35,7 @@ const App: React.FC = () => {
 
 	const [ucMeta, setUcMeta] = React.useState<UCMeta>({
 		compress: false,
-		extension: 'jpg',
+		extension: 'jpeg',
 	})
 
 	const uploadOnChange = React.useCallback(
