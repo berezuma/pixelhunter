@@ -99,30 +99,17 @@ const App: React.FC = () => {
 							Irudi bakoitza moldatzea nekagarria izan daiteke. Pixelhunter-ek izugarrizko <strong>Adimen Artifiziala</strong> erabiltzen du <strong>objetuak ulertu eta irudiak automatikoki ebakitzeko</strong>, era adimentsuan.
 						</p>
 						<p className={css.p}>
-							Zure fitxategia igo eta automatikoki egokituko da neurri bakoitzera{' '}
-							<strong>
-								{sizesCount} {sizePlural}
-							</strong>{' '}
-							AA laguntzeko prest dago, robot batek egin dezakeen onena eskaintzeko ;)
+							Zure fitxategia igo eta automatikoki egokituko da neurri bakoitzera.{' '}
+			
+							AAk lagunduko zaitu, behintzat robot batek egin dezakeen onena eskainiz ;)
 						</p>
-						<p className={css.p}>
-							Bestetik, Pixelhunter-ek <strong>trikimailuak</strong> eskainiko dizkizu zure web orria hobetzeko.
-						</p>
+		
 
 						<PoweredBy />
 
 						<div className={css.upload}>
 							<div className={css.uploaderWrapper}>
 								<UploadcareUpload publicKey='3828f4d78b7de9c98461' onChange={uploadOnChange} />
-							</div>
-
-							<div className={css.support}>
-								<h2 className={css.h2}>We support:</h2>
-								<div className={css.grid}>
-									{advancedModeLogos.map(appInfo => {
-										return <img className={css.infoLogo} key={appInfo.app} src={appInfo.logoSrc} width={40} height={40} alt={`Images for ${appInfo.app}`} title={`Images for ${appInfo.app}`} />
-									})}
-								</div>
 							</div>
 						</div>
 						{src !== null && <Tabs onChange={setActiveTab} value={activeTab} />}
@@ -157,13 +144,7 @@ const App: React.FC = () => {
 							})}
 						</Container>
 					</CSSTransition>
-					<CSSTransition classNames='tab' in={activeTab === TabsEnum.advanced} timeout={timeouts} appear>
-						<Container className={css.tab}>
-							{sizes.map(target => {
-								return <Target mode={TabsEnum.advanced} key={target.app} ucMeta={ucMeta} src={src} {...target} />
-							})}
-						</Container>
-					</CSSTransition>
+
 				</div>
 			)}
 			<Container>
